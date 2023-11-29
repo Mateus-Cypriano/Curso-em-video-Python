@@ -1,0 +1,7 @@
+msg = input('Digite algo ')
+print('O tipo primitivo é: ', type(msg))
+print('É alfabético?', msg.isalpha())
+print('É alfanúmerico?', msg.isalnum())
+print('Esta todo em letras maísculas?', msg.isupper())
+print('É algo imprimivel?', msg.isprintable())
+print('É númerico?', msg.isnumeric())
